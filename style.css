@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #219ebc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+.new-game{
+    margin-bottom: 20px;
+}
+
+.container {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.game {
+
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 0 10px #023e8a;
+    transition: box-shadow 0.5s ease-in-out;
+    transition: height 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
+    font-size: 8vmin;
+    color: #22333b;
+}
+
+.box:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+
+}
+
+.box-1:hover {
+    /* height: 21vmin;
+    width: 21vmin; */
+    background-color: #90e0ef;
+    border: 2px solid #d62828;
+    color: #d62828;
+
+}
+
+.reset {
+    background-color: #f8f9fa;
+    /* Light
+     grey background */
+    width: 200px;
+    height: 60px;
+    margin-bottom: 30px;
+    color: #333;
+    /* Dark text color */
+    padding: 10px 20px;
+    /* Padding for a comfortable size */
+    border: 2px solid #ccc;
+    /* Light border */
+    border-radius: 8px;
+    /* Rounded corners */
+    font-size: 16px;
+    /* Font size */
+    font-weight: bold;
+    /* Bold text */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transition for hover effects */
+}
+
+.reset:hover {
+    background-color: #e2e6ea;
+    /* Slightly darker background on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Shadow effect on hover */
+}
+
+.winner {
+    background-color: #f8f9fa;
+    /* Light
+    grey background */
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    color: #333;
+    /* Dark text color */
+    padding: 10px 20px;
+    /* Padding for a comfortable size */
+    border: 2px solid #ccc;
+    /* Light border */
+    border-radius: 8px;
+    /* Rounded corners */
+    font-size: 16px;
+    /* Font size */
+    font-weight: bold;
+    /* Bold text */
+    cursor: pointer;
+   
+    /* Pointer cursor on hover */
+}
+
+.new-game {
+    background-color: #f8f9fa;
+    /* Light
+    grey background */
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    color: #333;
+    /* Dark text color */
+    padding: 10px 20px;
+    /* Padding for a comfortable size */
+    border: 2px solid #ccc;
+    /* Light border */
+    border-radius: 8px;
+    /* Rounded corners */
+    font-size: 16px;
+    /* Font size */
+    font-weight: bold;
+    /* Bold text */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.hide
+{
+    display: none;
+}
